@@ -6,5 +6,7 @@ module.exports = function check(str, bracketsConfig) {
         i = -1;
     } 
 }
+
+
 return str ? false : true;
 }
