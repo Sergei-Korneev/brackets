@@ -1,8 +1,8 @@
-module.exports = function check(str, bracketsConfig) {
-  for (let i = 0; i < bracketsConfig.length; i++) {
-    let brackets = bracketsConfig[i].join('');
-    if (str.includes(brackets)) {
-        str = str.replace(brackets, '');
+module.exports = function check(str, brConfig) {
+  for (let i = 0; i < brConfig.length; i++) {
+    let br = brConfig[i].join('');
+    if (str.includes(br)) {
+        str = str.replace(br, '');
         i = -1;
     } 
 }
